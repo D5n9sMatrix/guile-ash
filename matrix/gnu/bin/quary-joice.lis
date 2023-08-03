@@ -1,0 +1,315 @@
+Listing of compilation of file /home/admin/guile-lisp-2.1.0/guile-ash/matrix/gnu/bin/quary-joice.el
+on 2023-08-03 15:44:02 by CLISP, version 2.49.93+ (2018-02-18) (built on lcy02-amd64-055.buildd [127.0.1.1])
+;; Compiling file /home/admin/guile-lisp-2.1.0/guile-ash/matrix/gnu/bin/quary-joice.el ...
+
+Disassembly of function #:|1 33 14-1|
+(CONST 0) = 14
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+2 byte-code instructions:
+0     (CONST 0)                           ; 14
+1     (SKIP&RET 1)
+
+Disassembly of function #:|34 37 14-2|
+(CONST 0) = 14
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+2 byte-code instructions:
+0     (CONST 0)                           ; 14
+1     (SKIP&RET 1)
+WARNING: in #:|38 41 ?C-N-3| in lines 38..41 : ?C-N is neither declared nor bound,
+         it will be treated as if it were declared SPECIAL.
+
+Disassembly of function #:|38 41 ?C-N-3|
+(CONST 0) = ?C-N
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+reads special variable: ?C-N
+2 byte-code instructions:
+0     (GETVALUE 0)                        ; ?C-N
+2     (SKIP&RET 1)
+WARNING: in DECLARE-FUNCTION in lines 42..103 : Unknown declaration ADVERTISED-CALLING-CONVENTION.
+         The whole declaration will be ignored.
+WARNING: in DECLARE-FUNCTION in lines 42..103 : variable _FN is not used.
+         Misspelled or missing IGNORE declaration?
+WARNING: in DECLARE-FUNCTION in lines 42..103 : variable _FILE is not used.
+         Misspelled or missing IGNORE declaration?
+WARNING: in DECLARE-FUNCTION in lines 42..103 : variable _ARGS is not used.
+         Misspelled or missing IGNORE declaration?
+
+Disassembly of function #:|42 103 (DEFMACRO DECLARE-FUNCTION (_FN _FILE &REST ...) ...)-4|
+(CONST 0) = DECLARE-FUNCTION
+(CONST 1) = SYSTEM::REMOVE-OLD-DEFINITIONS
+(CONST 2) = #<COMPILED-FUNCTION DECLARE-FUNCTION>
+(CONST 3) = (_FN _FILE &REST _ARGS)
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+9 byte-code instructions:
+0     (CONST&PUSH 0)                      ; DECLARE-FUNCTION
+1     (CALL1 1)                           ; SYSTEM::REMOVE-OLD-DEFINITIONS
+3     (CONST&PUSH 0)                      ; DECLARE-FUNCTION
+4     (CONST&PUSH 2)                      ; #
+5     (CONST&PUSH 3)                      ; (_FN _FILE &REST _ARGS)
+6     (CALLS2&PUSH 76)                    ; SYSTEM::MAKE-MACRO
+8     (CALLS2 156)                        ; SYSTEM::%PUTD
+10    (CONST 0)                           ; DECLARE-FUNCTION
+11    (SKIP&RET 1)
+
+Disassembly of function DECLARE-FUNCTION
+(CONST 0) = 3
+(CONST 1) = SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+(CONST 2) = SYSTEM::MACRO-CALL-ERROR
+2 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+12 byte-code instructions:
+0     (LOAD&PUSH 2)
+1     (CONST&PUSH 0)                      ; 3
+2     (CONST&PUSH 0)                      ; 3
+3     (T&PUSH)
+4     (CALL 4 1)                          ; SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+7     (JMPIFNOT L12)
+9     (NIL)
+10    (SKIP&RET 3)
+12    L12
+12    (LOAD&PUSH 2)
+13    (CALL1 2)                           ; SYSTEM::MACRO-CALL-ERROR
+15    (SKIP&RET 3)
+
+Disassembly of function #:|106 108 (DEFALIAS 'NOT 'NULL)-5|
+(CONST 0) = NOT
+(CONST 1) = NULL
+(CONST 2) = DEFALIAS
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+4 byte-code instructions:
+0     (CONST&PUSH 0)                      ; NOT
+1     (CONST&PUSH 1)                      ; NULL
+2     (CALL2 2)                           ; DEFALIAS
+4     (SKIP&RET 1)
+
+Disassembly of function #:|109 109 (DEFALIAS 'SXHASH 'SXHASH-EQUAL)-6|
+(CONST 0) = SXHASH
+(CONST 1) = SXHASH-EQUAL
+(CONST 2) = DEFALIAS
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+4 byte-code instructions:
+0     (CONST&PUSH 0)                      ; SXHASH
+1     (CONST&PUSH 1)                      ; SXHASH-EQUAL
+2     (CALL2 2)                           ; DEFALIAS
+4     (SKIP&RET 1)
+WARNING: in NORETURN in lines 111..116 : Unknown declaration DEBUG.
+         The whole declaration will be ignored.
+
+Disassembly of function #:|111 116 (DEFMACRO NORETURN (FORM) ...)-7|
+(CONST 0) = NORETURN
+(CONST 1) = SYSTEM::REMOVE-OLD-DEFINITIONS
+(CONST 2) = #<COMPILED-FUNCTION NORETURN>
+(CONST 3) = (FORM)
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+9 byte-code instructions:
+0     (CONST&PUSH 0)                      ; NORETURN
+1     (CALL1 1)                           ; SYSTEM::REMOVE-OLD-DEFINITIONS
+3     (CONST&PUSH 0)                      ; NORETURN
+4     (CONST&PUSH 2)                      ; #<COMPILED-FUNCTION NORETURN>
+5     (CONST&PUSH 3)                      ; (FORM)
+6     (CALLS2&PUSH 76)                    ; SYSTEM::MAKE-MACRO
+8     (CALLS2 156)                        ; SYSTEM::%PUTD
+10    (CONST 0)                           ; NORETURN
+11    (SKIP&RET 1)
+
+Disassembly of function NORETURN
+(CONST 0) = 2
+(CONST 1) = SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+(CONST 2) = SYSTEM::MACRO-CALL-ERROR
+(CONST 3) = PROG1
+(CONST 4) = ((ERROR "Form marked with `noreturn' did return"))
+2 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+19 byte-code instructions:
+0     (LOAD&PUSH 2)
+1     (CONST&PUSH 0)                      ; 2
+2     (CONST&PUSH 0)                      ; 2
+3     (NIL&PUSH)
+4     (CALL 4 1)                          ; SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+7     (JMPIFNOT L19)
+9     (LOAD 2)
+10    (CDR)
+11    (CAR&PUSH)
+12    (CONST&PUSH 3)                      ; PROG1
+13    (LOAD&PUSH 1)
+14    (CONST 4)                           ; (#)
+15    (CONS)
+16    (CONS)
+17    (SKIP&RET 4)
+19    L19
+19    (LOAD&PUSH 2)
+20    (CALL1 2)                           ; SYSTEM::MACRO-CALL-ERROR
+22    (SKIP&RET 3)
+WARNING: in 1VALUE in lines 118..123 : Unknown declaration DEBUG.
+         The whole declaration will be ignored.
+
+Disassembly of function #:|118 123 (DEFMACRO 1VALUE (FORM) ...)-8|
+(CONST 0) = 1VALUE
+(CONST 1) = SYSTEM::REMOVE-OLD-DEFINITIONS
+(CONST 2) = #<COMPILED-FUNCTION 1VALUE>
+(CONST 3) = (FORM)
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+9 byte-code instructions:
+0     (CONST&PUSH 0)                      ; 1VALUE
+1     (CALL1 1)                           ; SYSTEM::REMOVE-OLD-DEFINITIONS
+3     (CONST&PUSH 0)                      ; 1VALUE
+4     (CONST&PUSH 2)                      ; #<COMPILED-FUNCTION 1VALUE>
+5     (CONST&PUSH 3)                      ; (FORM)
+6     (CALLS2&PUSH 76)                    ; SYSTEM::MAKE-MACRO
+8     (CALLS2 156)                        ; SYSTEM::%PUTD
+10    (CONST 0)                           ; 1VALUE
+11    (SKIP&RET 1)
+
+Disassembly of function 1VALUE
+(CONST 0) = 2
+(CONST 1) = SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+(CONST 2) = SYSTEM::MACRO-CALL-ERROR
+2 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+14 byte-code instructions:
+0     (LOAD&PUSH 2)
+1     (CONST&PUSH 0)                      ; 2
+2     (CONST&PUSH 0)                      ; 2
+3     (NIL&PUSH)
+4     (CALL 4 1)                          ; SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+7     (JMPIFNOT L14)
+9     (LOAD 2)
+10    (CDR)
+11    (CAR)
+12    (SKIP&RET 3)
+14    L14
+14    (LOAD&PUSH 2)
+15    (CALL1 2)                           ; SYSTEM::MACRO-CALL-ERROR
+17    (SKIP&RET 3)
+
+Disassembly of function #:|125 132 (DEFMACRO DEF-EDEBUG-SPEC (SYMBOL SPEC) ...)-9|
+(CONST 0) = DEF-EDEBUG-SPEC
+(CONST 1) = SYSTEM::REMOVE-OLD-DEFINITIONS
+(CONST 2) = #<COMPILED-FUNCTION DEF-EDEBUG-SPEC>
+(CONST 3) = (SYMBOL SPEC)
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+9 byte-code instructions:
+0     (CONST&PUSH 0)                      ; DEF-EDEBUG-SPEC
+1     (CALL1 1)                           ; SYSTEM::REMOVE-OLD-DEFINITIONS
+3     (CONST&PUSH 0)                      ; DEF-EDEBUG-SPEC
+4     (CONST&PUSH 2)                      ; #
+5     (CONST&PUSH 3)                      ; (SYMBOL SPEC)
+6     (CALLS2&PUSH 76)                    ; SYSTEM::MAKE-MACRO
+8     (CALLS2 156)                        ; SYSTEM::%PUTD
+10    (CONST 0)                           ; DEF-EDEBUG-SPEC
+11    (SKIP&RET 1)
+
+Disassembly of function DEF-EDEBUG-SPEC
+(CONST 0) = 3
+(CONST 1) = SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+(CONST 2) = SYSTEM::MACRO-CALL-ERROR
+(CONST 3) = PUT
+(CONST 4) = QUOTE
+(CONST 5) = 'EDEBUG-FORM-SPEC
+2 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+27 byte-code instructions:
+0     (LOAD&PUSH 2)
+1     (CONST&PUSH 0)                      ; 3
+2     (CONST&PUSH 0)                      ; 3
+3     (NIL&PUSH)
+4     (CALL 4 1)                          ; SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+7     (JMPIFNOT L30)
+9     (LOAD 2)
+10    (CDR)
+11    (CAR&PUSH)
+12    (LOAD 3)
+13    (CDR)
+14    (CDR)
+15    (CAR&PUSH)
+16    (CONST&PUSH 3)                      ; PUT
+17    (CONST&PUSH 4)                      ; QUOTE
+18    (LOAD&PUSH 3)
+19    (LIST&PUSH 2)
+21    (CONST&PUSH 5)                      ; 'EDEBUG-FORM-SPEC
+22    (CONST&PUSH 4)                      ; QUOTE
+23    (LOAD&PUSH 4)
+24    (LIST&PUSH 2)
+26    (LIST 4)
+28    (SKIP&RET 5)
+30    L30
+30    (LOAD&PUSH 2)
+31    (CALL1 2)                           ; SYSTEM::MACRO-CALL-ERROR
+33    (SKIP&RET 3)
+WARNING: in LAMBDA in lines 134..158 : Unknown declaration DEBUG.
+         The whole declaration will be ignored.
+WARNING: in LAMBDA in lines 134..158 : Unknown declaration INDENT.
+         The whole declaration will be ignored.
+WARNING: in LAMBDA in lines 134..158 : Unknown declaration DOC-STRING.
+         The whole declaration will be ignored.
+
+Disassembly of function #:|134 158 (DEFMACRO LAMBDA (&REST CDR) ...)-10|
+(CONST 0) = LAMBDA
+(CONST 1) = SYSTEM::REMOVE-OLD-DEFINITIONS
+(CONST 2) = #<COMPILED-FUNCTION LAMBDA>
+(CONST 3) = (&REST CDR)
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+9 byte-code instructions:
+0     (CONST&PUSH 0)                      ; LAMBDA
+1     (CALL1 1)                           ; SYSTEM::REMOVE-OLD-DEFINITIONS
+3     (CONST&PUSH 0)                      ; LAMBDA
+4     (CONST&PUSH 2)                      ; #<COMPILED-FUNCTION LAMBDA>
+5     (CONST&PUSH 3)                      ; (&REST CDR)
+6     (CALLS2&PUSH 76)                    ; SYSTEM::MAKE-MACRO
+8     (CALLS2 156)                        ; SYSTEM::%PUTD
+10    (CONST 0)                           ; LAMBDA
+11    (SKIP&RET 1)
+
+Disassembly of function LAMBDA
+(CONST 0) = FUNCTION
+(CONST 1) = LAMBDA
+2 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+7 byte-code instructions:
+0     (LOAD&CDR&PUSH 2)
+2     (CONST&PUSH 0)                      ; FUNCTION
+3     (CONST&PUSH 1)                      ; LAMBDA
+4     (LOAD 2)
+5     (CONS&PUSH)
+6     (LIST 2)
+8     (SKIP&RET 4)
